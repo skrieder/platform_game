@@ -46,7 +46,7 @@
     <object-folder>
         <object-type name="TiledBackground" sid="5268190925264249">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Scott\Documents\GitHub\platform_game\imgs\bg.png" />
+            <texture original-source="C:\Users\Scott\Documents\GitHub\platform_game\imgs\bg_new.png" />
         </object-type>
         <object-type name="hero" sid="230877893371367">
             <plugin id="Sprite" />
