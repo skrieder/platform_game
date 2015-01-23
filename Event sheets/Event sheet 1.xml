@@ -2,5 +2,41 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <event-block sid="1796944673773684">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="6453491524515257" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="3380393222078924" type="hero">
+                    <param id="0" name="Object">hitbox</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6252384884671464">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="4531493437790742" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="2348852740682633" type="hero">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8374941416591287">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="8409640916405476" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="2968412672247919" type="hero">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
