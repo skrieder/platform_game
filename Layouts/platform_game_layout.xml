@@ -208,8 +208,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>988</x>
-                        <y>3845</y>
+                        <x>992</x>
+                        <y>3840</y>
                         <z>0</z>
                         <width>960</width>
                         <height>150</height>
@@ -535,6 +535,72 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="enemy" uid="19">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>992</x>
+                        <y>3761</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>150</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504999995</hotspotX>
+                        <hotspotY>1.00666666</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="enemy" uid="20">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>256</x>
+                        <y>3264</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>150</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504999995</hotspotX>
+                        <hotspotY>1.00666666</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="enemy" uid="21">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1568</x>
+                        <y>3264</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>150</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504999995</hotspotX>
+                        <hotspotY>1.00666666</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

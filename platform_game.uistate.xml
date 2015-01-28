@@ -32,5 +32,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/hitbox/" />
         <folder expanded="1" path="animation-folder/beam/" />
         <folder expanded="1" path="animation-folder/short_beam/" />
+        <folder expanded="1" path="animation-folder/enemy/" />
     </folders-expanded>
 </c2uistate>

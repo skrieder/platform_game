@@ -38,5 +38,23 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="69503261524625">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4237844561426599" type="hero">
+                    <param id="0" name="Object">enemy</param>
+                </condition>
+                <condition behavior="Platform" id="4" name="Is falling" sid="1894007796341204" type="hitbox" />
+                <condition id="-2" name="Compare Y" sid="8185502159359387" type="hitbox">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">enemy.Y</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3447311777209642" type="enemy" />
+                <action behavior="Platform" id="9" name="Set vector Y" sid="5876439909916828" type="hitbox">
+                    <param id="0" name="Vector Y">-700</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

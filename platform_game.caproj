@@ -105,6 +105,14 @@
         <object-type name="Touch" sid="691291927037724">
             <plugin id="Touch" />
         </object-type>
+        <object-type name="enemy" sid="920292400307181">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3752503308127212" speed="5">
+                    <frame duration="1" hotspotX="0.505" hotspotY="1.00667" original-source="C:\Users\Scott\Documents\GitHub\platform_game\imgs\enemy_face_right.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
